@@ -8,6 +8,5 @@ public class Main {
         System.out.println("Hello World.");
         System.out.println(msg + args[0]);
         System.out.println("Precisamos de uma " + args[1]);
-        System.out.println("Sucesso!");
         }
 }
