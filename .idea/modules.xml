@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DioPro.iml" filepath="$PROJECT_DIR$/DioPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dio.iml" filepath="$PROJECT_DIR$/Dio.iml" />
     </modules>
   </component>
 </project>
