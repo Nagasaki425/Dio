@@ -1,12 +1,16 @@
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        String msg = "Programando em ";
-        System.out.println("Hello World.");
-        System.out.println(msg + args[0]);
-        System.out.println("Precisamos de uma " + args[1]);
-        }
+    public class Main {
+
+    private final static String WELCOME_MESSAGE = "Olá, informe seu nome: ";
+
+
+    public static void main(String[] args){
+        var scanner = new Scanner(System.in);
+        System.out.println(WELCOME_MESSAGE);
+        var name = scanner.next();
+        System.out.println("Informe a sua idade: ");
+        var age = scanner.nextInt();
+        System.out.println("Olá " +name+ " sua idade é " +age+ " anos." );
+    }
 }
